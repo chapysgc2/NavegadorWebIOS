@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC97C56A2941CAE2000B174E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC97C5692941CAE2000B174E /* AppDelegate.swift */; };
+		CC97C56C2941CAE2000B174E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC97C56B2941CAE2000B174E /* SceneDelegate.swift */; };
+		CC97C56E2941CAE2000B174E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC97C56D2941CAE2000B174E /* ViewController.swift */; };
+		CC97C5712941CAE2000B174E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC97C56F2941CAE2000B174E /* Main.storyboard */; };
+		CC97C5742941CAE2000B174E /* NavegadorChapys.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC97C5722941CAE2000B174E /* NavegadorChapys.xcdatamodeld */; };
+		CC97C5762941CAE4000B174E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC97C5752941CAE4000B174E /* Assets.xcassets */; };
+		CC97C5792941CAE4000B174E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC97C5772941CAE4000B174E /* LaunchScreen.storyboard */; };
+		CC97C5842941CAE4000B174E /* NavegadorChapysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC97C5832941CAE4000B174E /* NavegadorChapysTests.swift */; };
+		CC97C58E2941CAE4000B174E /* NavegadorChapysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC97C58D2941CAE4000B174E /* NavegadorChapysUITests.swift */; };
+		CC97C5902941CAE4000B174E /* NavegadorChapysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC97C58F2941CAE4000B174E /* NavegadorChapysUITestsLaunchTests.swift */; };
+		CC97C5A02941CD8E000B174E /* icons8-adelante-50.png in Resources */ = {isa = PBXBuildFile; fileRef = CC97C59E2941CD8E000B174E /* icons8-adelante-50.png */; };
+		CC97C5A12941CD8E000B174E /* icons8-atrás-50.png in Resources */ = {isa = PBXBuildFile; fileRef = CC97C59F2941CD8E000B174E /* icons8-atrás-50.png */; };
+		CCC56AD02941F612006F3A6B /* 2048px-Greek_uc_sigma.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56ACF2941F612006F3A6B /* 2048px-Greek_uc_sigma.svg.png */; };
+		CCC56AE72941F95A006F3A6B /* Chromium_Logo.svg (11).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56AD72941F959006F3A6B /* Chromium_Logo.svg (11).png */; };
+		CCC56AE82941F95A006F3A6B /* Chromium_Logo.svg (1).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56AD82941F959006F3A6B /* Chromium_Logo.svg (1).png */; };
+		CCC56AE92941F95A006F3A6B /* Chromium_Logo.svg (10).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56AD92941F959006F3A6B /* Chromium_Logo.svg (10).png */; };
+		CCC56AEA2941F95A006F3A6B /* Chromium_Logo.svg (14).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56ADA2941F95A006F3A6B /* Chromium_Logo.svg (14).png */; };
+		CCC56AEB2941F95A006F3A6B /* Chromium_Logo.svg (12).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56ADB2941F95A006F3A6B /* Chromium_Logo.svg (12).png */; };
+		CCC56AEC2941F95A006F3A6B /* Chromium_Logo.svg (2).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56ADC2941F95A006F3A6B /* Chromium_Logo.svg (2).png */; };
+		CCC56AED2941F95A006F3A6B /* Chromium_Logo.svg (1) (1).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56ADD2941F95A006F3A6B /* Chromium_Logo.svg (1) (1).png */; };
+		CCC56AEE2941F95A006F3A6B /* Chromium_Logo.svg (9).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56ADE2941F95A006F3A6B /* Chromium_Logo.svg (9).png */; };
+		CCC56AEF2941F95A006F3A6B /* Chromium_Logo.svg (4).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56ADF2941F95A006F3A6B /* Chromium_Logo.svg (4).png */; };
+		CCC56AF02941F95A006F3A6B /* Chromium_Logo.svg (3).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56AE02941F95A006F3A6B /* Chromium_Logo.svg (3).png */; };
+		CCC56AF12941F95A006F3A6B /* Chromium_Logo.svg (8).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56AE12941F95A006F3A6B /* Chromium_Logo.svg (8).png */; };
+		CCC56AF22941F95A006F3A6B /* Chromium_Logo.svg (6).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56AE22941F95A006F3A6B /* Chromium_Logo.svg (6).png */; };
+		CCC56AF32941F95A006F3A6B /* Chromium_Logo.svg (13).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56AE32941F95A006F3A6B /* Chromium_Logo.svg (13).png */; };
+		CCC56AF42941F95A006F3A6B /* Chromium_Logo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56AE42941F95A006F3A6B /* Chromium_Logo.svg.png */; };
+		CCC56AF52941F95A006F3A6B /* Chromium_Logo.svg (5).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56AE52941F95A006F3A6B /* Chromium_Logo.svg (5).png */; };
+		CCC56AF62941F95A006F3A6B /* Chromium_Logo.svg (7).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56AE62941F95A006F3A6B /* Chromium_Logo.svg (7).png */; };
+		CCC56AF82941F9D7006F3A6B /* Chromium_Logo.svg (15).png in Resources */ = {isa = PBXBuildFile; fileRef = CCC56AF72941F9D7006F3A6B /* Chromium_Logo.svg (15).png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC97C5802941CAE4000B174E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC97C55E2941CAE2000B174E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC97C5652941CAE2000B174E;
+			remoteInfo = NavegadorChapys;
+		};
+		CC97C58A2941CAE4000B174E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC97C55E2941CAE2000B174E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC97C5652941CAE2000B174E;
+			remoteInfo = NavegadorChapys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC97C5662941CAE2000B174E /* NavegadorChapys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavegadorChapys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC97C5692941CAE2000B174E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC97C56B2941CAE2000B174E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC97C56D2941CAE2000B174E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC97C5702941CAE2000B174E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC97C5732941CAE2000B174E /* NavegadorChapys.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NavegadorChapys.xcdatamodel; sourceTree = "<group>"; };
+		CC97C5752941CAE4000B174E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC97C5782941CAE4000B174E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC97C57A2941CAE4000B174E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC97C57F2941CAE4000B174E /* NavegadorChapysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavegadorChapysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC97C5832941CAE4000B174E /* NavegadorChapysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegadorChapysTests.swift; sourceTree = "<group>"; };
+		CC97C5892941CAE4000B174E /* NavegadorChapysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavegadorChapysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC97C58D2941CAE4000B174E /* NavegadorChapysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegadorChapysUITests.swift; sourceTree = "<group>"; };
+		CC97C58F2941CAE4000B174E /* NavegadorChapysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegadorChapysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC97C59E2941CD8E000B174E /* icons8-adelante-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-adelante-50.png"; sourceTree = "<group>"; };
+		CC97C59F2941CD8E000B174E /* icons8-atrás-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-atrás-50.png"; sourceTree = "<group>"; };
+		CCC56ACF2941F612006F3A6B /* 2048px-Greek_uc_sigma.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2048px-Greek_uc_sigma.svg.png"; sourceTree = "<group>"; };
+		CCC56AD72941F959006F3A6B /* Chromium_Logo.svg (11).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (11).png"; sourceTree = "<group>"; };
+		CCC56AD82941F959006F3A6B /* Chromium_Logo.svg (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (1).png"; sourceTree = "<group>"; };
+		CCC56AD92941F959006F3A6B /* Chromium_Logo.svg (10).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (10).png"; sourceTree = "<group>"; };
+		CCC56ADA2941F95A006F3A6B /* Chromium_Logo.svg (14).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (14).png"; sourceTree = "<group>"; };
+		CCC56ADB2941F95A006F3A6B /* Chromium_Logo.svg (12).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (12).png"; sourceTree = "<group>"; };
+		CCC56ADC2941F95A006F3A6B /* Chromium_Logo.svg (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (2).png"; sourceTree = "<group>"; };
+		CCC56ADD2941F95A006F3A6B /* Chromium_Logo.svg (1) (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (1) (1).png"; sourceTree = "<group>"; };
+		CCC56ADE2941F95A006F3A6B /* Chromium_Logo.svg (9).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (9).png"; sourceTree = "<group>"; };
+		CCC56ADF2941F95A006F3A6B /* Chromium_Logo.svg (4).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (4).png"; sourceTree = "<group>"; };
+		CCC56AE02941F95A006F3A6B /* Chromium_Logo.svg (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (3).png"; sourceTree = "<group>"; };
+		CCC56AE12941F95A006F3A6B /* Chromium_Logo.svg (8).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (8).png"; sourceTree = "<group>"; };
+		CCC56AE22941F95A006F3A6B /* Chromium_Logo.svg (6).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (6).png"; sourceTree = "<group>"; };
+		CCC56AE32941F95A006F3A6B /* Chromium_Logo.svg (13).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (13).png"; sourceTree = "<group>"; };
+		CCC56AE42941F95A006F3A6B /* Chromium_Logo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chromium_Logo.svg.png; sourceTree = "<group>"; };
+		CCC56AE52941F95A006F3A6B /* Chromium_Logo.svg (5).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (5).png"; sourceTree = "<group>"; };
+		CCC56AE62941F95A006F3A6B /* Chromium_Logo.svg (7).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (7).png"; sourceTree = "<group>"; };
+		CCC56AF72941F9D7006F3A6B /* Chromium_Logo.svg (15).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chromium_Logo.svg (15).png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC97C5632941CAE2000B174E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC97C57C2941CAE4000B174E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC97C5862941CAE4000B174E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC97C55D2941CAE2000B174E = {
+			isa = PBXGroup;
+			children = (
+				CC97C5682941CAE2000B174E /* NavegadorChapys */,
+				CC97C5822941CAE4000B174E /* NavegadorChapysTests */,
+				CC97C58C2941CAE4000B174E /* NavegadorChapysUITests */,
+				CC97C5672941CAE2000B174E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC97C5672941CAE2000B174E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC97C5662941CAE2000B174E /* NavegadorChapys.app */,
+				CC97C57F2941CAE4000B174E /* NavegadorChapysTests.xctest */,
+				CC97C5892941CAE4000B174E /* NavegadorChapysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC97C5682941CAE2000B174E /* NavegadorChapys */ = {
+			isa = PBXGroup;
+			children = (
+				CCC56ACE2941F31A006F3A6B /* Controller */,
+				CC97C59D2941CD61000B174E /* Images */,
+				CC97C59C2941CD45000B174E /* View */,
+				CC97C5692941CAE2000B174E /* AppDelegate.swift */,
+				CC97C56B2941CAE2000B174E /* SceneDelegate.swift */,
+				CC97C5752941CAE4000B174E /* Assets.xcassets */,
+				CC97C57A2941CAE4000B174E /* Info.plist */,
+				CC97C5722941CAE2000B174E /* NavegadorChapys.xcdatamodeld */,
+			);
+			path = NavegadorChapys;
+			sourceTree = "<group>";
+		};
+		CC97C5822941CAE4000B174E /* NavegadorChapysTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC97C5832941CAE4000B174E /* NavegadorChapysTests.swift */,
+			);
+			path = NavegadorChapysTests;
+			sourceTree = "<group>";
+		};
+		CC97C58C2941CAE4000B174E /* NavegadorChapysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC97C58D2941CAE4000B174E /* NavegadorChapysUITests.swift */,
+				CC97C58F2941CAE4000B174E /* NavegadorChapysUITestsLaunchTests.swift */,
+			);
+			path = NavegadorChapysUITests;
+			sourceTree = "<group>";
+		};
+		CC97C59C2941CD45000B174E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC97C56F2941CAE2000B174E /* Main.storyboard */,
+				CC97C5772941CAE4000B174E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC97C59D2941CD61000B174E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CCC56AD62941F94C006F3A6B /* Logo */,
+				CCC56ACF2941F612006F3A6B /* 2048px-Greek_uc_sigma.svg.png */,
+				CC97C59E2941CD8E000B174E /* icons8-adelante-50.png */,
+				CC97C59F2941CD8E000B174E /* icons8-atrás-50.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CCC56ACE2941F31A006F3A6B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC97C56D2941CAE2000B174E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCC56AD62941F94C006F3A6B /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				CCC56ADD2941F95A006F3A6B /* Chromium_Logo.svg (1) (1).png */,
+				CCC56AD82941F959006F3A6B /* Chromium_Logo.svg (1).png */,
+				CCC56AF72941F9D7006F3A6B /* Chromium_Logo.svg (15).png */,
+				CCC56ADC2941F95A006F3A6B /* Chromium_Logo.svg (2).png */,
+				CCC56AE02941F95A006F3A6B /* Chromium_Logo.svg (3).png */,
+				CCC56ADF2941F95A006F3A6B /* Chromium_Logo.svg (4).png */,
+				CCC56AE52941F95A006F3A6B /* Chromium_Logo.svg (5).png */,
+				CCC56AE22941F95A006F3A6B /* Chromium_Logo.svg (6).png */,
+				CCC56AE62941F95A006F3A6B /* Chromium_Logo.svg (7).png */,
+				CCC56AE12941F95A006F3A6B /* Chromium_Logo.svg (8).png */,
+				CCC56ADE2941F95A006F3A6B /* Chromium_Logo.svg (9).png */,
+				CCC56AD92941F959006F3A6B /* Chromium_Logo.svg (10).png */,
+				CCC56AD72941F959006F3A6B /* Chromium_Logo.svg (11).png */,
+				CCC56ADB2941F95A006F3A6B /* Chromium_Logo.svg (12).png */,
+				CCC56AE32941F95A006F3A6B /* Chromium_Logo.svg (13).png */,
+				CCC56ADA2941F95A006F3A6B /* Chromium_Logo.svg (14).png */,
+				CCC56AE42941F95A006F3A6B /* Chromium_Logo.svg.png */,
+			);
+			path = Logo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC97C5652941CAE2000B174E /* NavegadorChapys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC97C5932941CAE4000B174E /* Build configuration list for PBXNativeTarget "NavegadorChapys" */;
+			buildPhases = (
+				CC97C5622941CAE2000B174E /* Sources */,
+				CC97C5632941CAE2000B174E /* Frameworks */,
+				CC97C5642941CAE2000B174E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavegadorChapys;
+			productName = NavegadorChapys;
+			productReference = CC97C5662941CAE2000B174E /* NavegadorChapys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC97C57E2941CAE4000B174E /* NavegadorChapysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC97C5962941CAE4000B174E /* Build configuration list for PBXNativeTarget "NavegadorChapysTests" */;
+			buildPhases = (
+				CC97C57B2941CAE4000B174E /* Sources */,
+				CC97C57C2941CAE4000B174E /* Frameworks */,
+				CC97C57D2941CAE4000B174E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC97C5812941CAE4000B174E /* PBXTargetDependency */,
+			);
+			name = NavegadorChapysTests;
+			productName = NavegadorChapysTests;
+			productReference = CC97C57F2941CAE4000B174E /* NavegadorChapysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC97C5882941CAE4000B174E /* NavegadorChapysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC97C5992941CAE4000B174E /* Build configuration list for PBXNativeTarget "NavegadorChapysUITests" */;
+			buildPhases = (
+				CC97C5852941CAE4000B174E /* Sources */,
+				CC97C5862941CAE4000B174E /* Frameworks */,
+				CC97C5872941CAE4000B174E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC97C58B2941CAE4000B174E /* PBXTargetDependency */,
+			);
+			name = NavegadorChapysUITests;
+			productName = NavegadorChapysUITests;
+			productReference = CC97C5892941CAE4000B174E /* NavegadorChapysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC97C55E2941CAE2000B174E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CC97C5652941CAE2000B174E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					CC97C57E2941CAE4000B174E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CC97C5652941CAE2000B174E;
+					};
+					CC97C5882941CAE4000B174E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CC97C5652941CAE2000B174E;
+					};
+				};
+			};
+			buildConfigurationList = CC97C5612941CAE2000B174E /* Build configuration list for PBXProject "NavegadorChapys" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC97C55D2941CAE2000B174E;
+			productRefGroup = CC97C5672941CAE2000B174E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC97C5652941CAE2000B174E /* NavegadorChapys */,
+				CC97C57E2941CAE4000B174E /* NavegadorChapysTests */,
+				CC97C5882941CAE4000B174E /* NavegadorChapysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC97C5642941CAE2000B174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC56AEE2941F95A006F3A6B /* Chromium_Logo.svg (9).png in Resources */,
+				CCC56AE82941F95A006F3A6B /* Chromium_Logo.svg (1).png in Resources */,
+				CCC56AF02941F95A006F3A6B /* Chromium_Logo.svg (3).png in Resources */,
+				CCC56AEA2941F95A006F3A6B /* Chromium_Logo.svg (14).png in Resources */,
+				CCC56AD02941F612006F3A6B /* 2048px-Greek_uc_sigma.svg.png in Resources */,
+				CCC56AF22941F95A006F3A6B /* Chromium_Logo.svg (6).png in Resources */,
+				CCC56AF42941F95A006F3A6B /* Chromium_Logo.svg.png in Resources */,
+				CCC56AE72941F95A006F3A6B /* Chromium_Logo.svg (11).png in Resources */,
+				CCC56AF52941F95A006F3A6B /* Chromium_Logo.svg (5).png in Resources */,
+				CCC56AED2941F95A006F3A6B /* Chromium_Logo.svg (1) (1).png in Resources */,
+				CC97C5792941CAE4000B174E /* LaunchScreen.storyboard in Resources */,
+				CCC56AF82941F9D7006F3A6B /* Chromium_Logo.svg (15).png in Resources */,
+				CCC56AEC2941F95A006F3A6B /* Chromium_Logo.svg (2).png in Resources */,
+				CCC56AF62941F95A006F3A6B /* Chromium_Logo.svg (7).png in Resources */,
+				CCC56AEB2941F95A006F3A6B /* Chromium_Logo.svg (12).png in Resources */,
+				CC97C5762941CAE4000B174E /* Assets.xcassets in Resources */,
+				CC97C5A02941CD8E000B174E /* icons8-adelante-50.png in Resources */,
+				CCC56AF12941F95A006F3A6B /* Chromium_Logo.svg (8).png in Resources */,
+				CCC56AEF2941F95A006F3A6B /* Chromium_Logo.svg (4).png in Resources */,
+				CC97C5712941CAE2000B174E /* Main.storyboard in Resources */,
+				CCC56AF32941F95A006F3A6B /* Chromium_Logo.svg (13).png in Resources */,
+				CCC56AE92941F95A006F3A6B /* Chromium_Logo.svg (10).png in Resources */,
+				CC97C5A12941CD8E000B174E /* icons8-atrás-50.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC97C57D2941CAE4000B174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC97C5872941CAE4000B174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC97C5622941CAE2000B174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC97C56E2941CAE2000B174E /* ViewController.swift in Sources */,
+				CC97C56A2941CAE2000B174E /* AppDelegate.swift in Sources */,
+				CC97C56C2941CAE2000B174E /* SceneDelegate.swift in Sources */,
+				CC97C5742941CAE2000B174E /* NavegadorChapys.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC97C57B2941CAE4000B174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC97C5842941CAE4000B174E /* NavegadorChapysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC97C5852941CAE4000B174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC97C5902941CAE4000B174E /* NavegadorChapysUITestsLaunchTests.swift in Sources */,
+				CC97C58E2941CAE4000B174E /* NavegadorChapysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC97C5812941CAE4000B174E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC97C5652941CAE2000B174E /* NavegadorChapys */;
+			targetProxy = CC97C5802941CAE4000B174E /* PBXContainerItemProxy */;
+		};
+		CC97C58B2941CAE4000B174E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC97C5652941CAE2000B174E /* NavegadorChapys */;
+			targetProxy = CC97C58A2941CAE4000B174E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC97C56F2941CAE2000B174E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC97C5702941CAE2000B174E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC97C5772941CAE4000B174E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC97C5782941CAE4000B174E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC97C5912941CAE4000B174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC97C5922941CAE4000B174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC97C5942941CAE4000B174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavegadorChapys/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alain.NavegadorChapys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC97C5952941CAE4000B174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavegadorChapys/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alain.NavegadorChapys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC97C5972941CAE4000B174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alain.NavegadorChapysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavegadorChapys.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NavegadorChapys";
+			};
+			name = Debug;
+		};
+		CC97C5982941CAE4000B174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alain.NavegadorChapysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavegadorChapys.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NavegadorChapys";
+			};
+			name = Release;
+		};
+		CC97C59A2941CAE4000B174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alain.NavegadorChapysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavegadorChapys;
+			};
+			name = Debug;
+		};
+		CC97C59B2941CAE4000B174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alain.NavegadorChapysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavegadorChapys;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC97C5612941CAE2000B174E /* Build configuration list for PBXProject "NavegadorChapys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC97C5912941CAE4000B174E /* Debug */,
+				CC97C5922941CAE4000B174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC97C5932941CAE4000B174E /* Build configuration list for PBXNativeTarget "NavegadorChapys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC97C5942941CAE4000B174E /* Debug */,
+				CC97C5952941CAE4000B174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC97C5962941CAE4000B174E /* Build configuration list for PBXNativeTarget "NavegadorChapysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC97C5972941CAE4000B174E /* Debug */,
+				CC97C5982941CAE4000B174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC97C5992941CAE4000B174E /* Build configuration list for PBXNativeTarget "NavegadorChapysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC97C59A2941CAE4000B174E /* Debug */,
+				CC97C59B2941CAE4000B174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC97C5722941CAE2000B174E /* NavegadorChapys.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC97C5732941CAE2000B174E /* NavegadorChapys.xcdatamodel */,
+			);
+			currentVersion = CC97C5732941CAE2000B174E /* NavegadorChapys.xcdatamodel */;
+			path = NavegadorChapys.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC97C55E2941CAE2000B174E /* Project object */;
+}
